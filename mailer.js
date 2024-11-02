@@ -43,7 +43,9 @@ const mailer = async () => {
         console.log(`Email sent for event: ${event.title} to ${registration.email}`);
       });
     }); 
-
+    console.log("remove env"
+    );
+    
     console.log('Emails sent successfully');
   } catch (error) {
     console.error('Failed to send emails:', error);
